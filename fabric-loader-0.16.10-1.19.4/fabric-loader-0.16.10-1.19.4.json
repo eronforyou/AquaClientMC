@@ -1,0 +1,66 @@
+{
+  "id": "fabric-loader-0.16.10-1.19.4",
+  "inheritsFrom": "1.19.4",
+  "time": "2025-01-12T10:31:08+03:00",
+  "releaseTime": "2025-01-12T10:31:08+03:00",
+  "type": "release",
+  "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+  "minimumLauncherVersion": 0,
+  "arguments": {
+    "jvm": [
+      {
+        "values": [
+          "-DFabricMcEmu= net.minecraft.client.main.Main "
+        ]
+      }
+    ],
+    "game": []
+  },
+  "assets": "legacy",
+  "libraries": [
+    {
+      "name": "org.ow2.asm:asm:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-analysis:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-commons:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "org.ow2.asm:asm-util:9.7.1",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "net.fabricmc:intermediary:1.19.4",
+      "url": "https://maven.fabricmc.net/"
+    },
+    {
+      "name": "net.fabricmc:fabric-loader:0.16.10",
+      "url": "https://maven.fabricmc.net/"
+    }
+  ],
+  "logging": {
+    "client": {
+      "argument": "-Dlog4j.configurationFile=${path}",
+      "file": {
+        "id": "client-1.12.xml",
+        "sha1": "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
+        "size": 888,
+        "url": "https://launcher.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
+      },
+      "type": "log4j2-xml"
+    }
+  }
+}
